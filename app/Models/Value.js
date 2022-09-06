@@ -6,6 +6,7 @@ export class Value {
     this.title = data.title
   }
 
+
   get CardTemplate() {
     return /*html*/`
       <div class="card m-2 shadow">
